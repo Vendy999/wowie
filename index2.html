@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src ="java.js"></script>
+    <title>Document</title>
+
+    <style> 
+
+      h1 {text-align: center;}
+      
+      </style>
+
+</head>
+
+<script>
+
+  let name = prompt("Jak se jmenuješ?")
+    alert(name)
+    
+    function myFunction() {
+    document.getElementById("myH2").style.color = "black";
+    document.getElementById("myP").style.color = "purple";
+    document.getElementById("myP2").style.color = "blue";
+    document.getElementById("myDiv").style.color = "red";
+  }
+     </script>
+
+<body>
+ <script scr="java.js"></script>
+  
+
+    <h1> Vítejte na našich stránkách. </h1>
+     <p1> Seal </p1>
+
+     <table style="width:100%">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th> 
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Popo</td>
+          <td>...</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>Lolo</td>
+          <td>...</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>Pepa</td>
+          <td>...</td>
+          <td>...</td>
+        </tr>
+      </table>
+
+      <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Popo"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Lolo"><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+    
+
+
+<img src="https://www.fisheries.noaa.gov/s3/styles/original/s3/dam-migration/3008x2000-spottedseal-afsc-bstewart_0045-_retouched.jpg?itok=KMIlSbhw" alt="Seal"
+
+<h2 id="myH2">This is seal.</h2>
+<p id="myP">What a cute seal.</p>
+<p id="myP2">Look at his big cute eyes.</p>
+<div id="myDiv">I love seals.</div>
+<br>
+
+<button type="button" onclick="myFunction()">Set text color</button>
+
+</body>
+</html>
